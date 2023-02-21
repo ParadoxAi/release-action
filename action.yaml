@@ -1,0 +1,5 @@
+name: "Paradox Github Action"
+description: "Github actions for Paradox"
+runs:
+  using: "node16"
+  main: "dist/index.js"

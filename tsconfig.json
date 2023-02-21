@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "lib": ["esnext", "dom"],
+    "types": ["@types/node"],
+    "moduleResolution": "node",
+    "emitDeclarationOnly": false
+  },
+  "exclude": ["./node_modules", "./dist"],
+  "include": ["./src/**/*.d.ts", "./src/**/*.ts"]
+}
